@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T13:32:39.744Z",
+  "generatedAt": "2026-06-28T13:34:31.412Z",
   "plugins": {
     "AEMotionPanel": {
       "name": "Motion Panel",
@@ -8,11 +8,11 @@
       "extensionFolder": "AEMotionPanel",
       "bundleId": "com.motionpanel.base",
       "latest": {
-        "version": "0.1.0",
-        "file": "AEMotionPanel-0.1.0.zip",
-        "url": "https://raw.githubusercontent.com/dukost42-byte/slate-releases/main/plugins/AEMotionPanel-0.1.0.zip",
-        "sha256": "e1bd01ef0cca7fe032d3503cb1ba34d369ef121e66344fc7a6ce52185740d063",
-        "size": 151408
+        "version": "0.2.0",
+        "file": "AEMotionPanel-0.2.0.zip",
+        "url": "https://raw.githubusercontent.com/dukost42-byte/slate-releases/main/plugins/AEMotionPanel-0.2.0.zip",
+        "sha256": "a2a4fe91e8da21634fc7558ce20037927350d6bb54aa4acf7649dd8926c7b685",
+        "size": 150228
       },
       "versions": [
         {
@@ -21,6 +21,13 @@
           "url": "https://raw.githubusercontent.com/dukost42-byte/slate-releases/main/plugins/AEMotionPanel-0.1.0.zip",
           "sha256": "e1bd01ef0cca7fe032d3503cb1ba34d369ef121e66344fc7a6ce52185740d063",
           "size": 151408
+        },
+        {
+          "version": "0.2.0",
+          "file": "AEMotionPanel-0.2.0.zip",
+          "url": "https://raw.githubusercontent.com/dukost42-byte/slate-releases/main/plugins/AEMotionPanel-0.2.0.zip",
+          "sha256": "a2a4fe91e8da21634fc7558ce20037927350d6bb54aa4acf7649dd8926c7b685",
+          "size": 150228
         }
       ]
     }
