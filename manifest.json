@@ -1,0 +1,17 @@
+{
+  "plugins": {
+    "motionpanel": {
+      "name": "Motion Panel",
+      "host": "ae",
+      "kind": "cep",
+      "extensionFolder": "AEMotionPanel",
+      "latest": {
+        "version": "0.1.0",
+        "file": "AEMotionPanel.zip",
+        "url": "https://raw.githubusercontent.com/dukost42-byte/slate-releases/main/plugins/AEMotionPanel.zip",
+        "sha256": "e1bd01ef0cca7fe032d3503cb1ba34d369ef121e66344fc7a6ce52185740d063",
+        "size": 151408
+      }
+    }
+  }
+}
