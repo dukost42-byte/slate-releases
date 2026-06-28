@@ -1,0 +1,34 @@
+name: Build manifest
+
+on:
+  push:
+    paths:
+      - 'plugins/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install adm-zip
+        run: npm i adm-zip@^0.5.16
+
+      - name: Rebuild manifest.json
+        run: node tools/build-manifest.js plugins "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/plugins" manifest.json
+
+      - name: Commit manifest.json
+        run: |
+          git config user.name "manifest-bot"
+          git config user.email "manifest-bot@users.noreply.github.com"
+          git add manifest.json
+          git diff --staged --quiet || git commit -m "auto: rebuild manifest.json"
+          git push
