@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T12:00:32.917Z",
+  "generatedAt": "2026-06-29T12:07:21.837Z",
   "plugins": {
     "AEMotionPanel": {
       "name": "Motion Panel",
@@ -31,26 +31,26 @@
         }
       ]
     },
-    "com.sfxlibrary.panel-0.1.0": {
+    "com.sfxlibrary.panel 3": {
       "name": "com.sfxlibrary.panel",
       "host": "pr",
       "kind": "cep",
-      "extensionFolder": "com.sfxlibrary.panel-0.1.0",
+      "extensionFolder": "com.sfxlibrary.panel 3",
       "bundleId": "com.sfxlibrary.panel",
       "latest": {
         "version": "0.1.0",
         "file": "com.sfxlibrary.panel-0.1.0.zip",
         "url": "https://raw.githubusercontent.com/dukost42-byte/slate-releases/main/plugins/com.sfxlibrary.panel-0.1.0.zip",
-        "sha256": "4c03c18d664a2e4fa3adf677daa4c1a5bec91eba01139382a84f52a1dbf5454d",
-        "size": 87219
+        "sha256": "c318b56c6eb353b15ed282ebbd96acd6ddcb17303c7c652c6a3e378bfc5d43d9",
+        "size": 88079
       },
       "versions": [
         {
           "version": "0.1.0",
           "file": "com.sfxlibrary.panel-0.1.0.zip",
           "url": "https://raw.githubusercontent.com/dukost42-byte/slate-releases/main/plugins/com.sfxlibrary.panel-0.1.0.zip",
-          "sha256": "4c03c18d664a2e4fa3adf677daa4c1a5bec91eba01139382a84f52a1dbf5454d",
-          "size": 87219
+          "sha256": "c318b56c6eb353b15ed282ebbd96acd6ddcb17303c7c652c6a3e378bfc5d43d9",
+          "size": 88079
         }
       ]
     }
