@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T10:11:55.570Z",
+  "generatedAt": "2026-06-29T10:22:30.092Z",
   "plugins": {
     "AEMotionPanel": {
       "name": "Motion Panel",
@@ -28,29 +28,6 @@
           "url": "https://raw.githubusercontent.com/dukost42-byte/slate-releases/main/plugins/AEMotionPanel-0.2.0.zip",
           "sha256": "a2a4fe91e8da21634fc7558ce20037927350d6bb54aa4acf7649dd8926c7b685",
           "size": 150228
-        }
-      ]
-    },
-    "MF Library": {
-      "name": "MF Library",
-      "host": "pr",
-      "kind": "cep",
-      "extensionFolder": "MF Library",
-      "bundleId": "com.sfxlibrary.panel",
-      "latest": {
-        "version": "1.0.0",
-        "file": "MF Library-0.1.0.zip",
-        "url": "https://raw.githubusercontent.com/dukost42-byte/slate-releases/main/plugins/MF%20Library-0.1.0.zip",
-        "sha256": "a0db9b526878d75505f93672f027f3e188402a56e61ecbb64895afdb37efcee6",
-        "size": 86799
-      },
-      "versions": [
-        {
-          "version": "1.0.0",
-          "file": "MF Library-0.1.0.zip",
-          "url": "https://raw.githubusercontent.com/dukost42-byte/slate-releases/main/plugins/MF%20Library-0.1.0.zip",
-          "sha256": "a0db9b526878d75505f93672f027f3e188402a56e61ecbb64895afdb37efcee6",
-          "size": 86799
         }
       ]
     }
