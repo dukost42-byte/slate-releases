@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T15:09:42.302Z",
+  "generatedAt": "2026-06-29T15:25:09.478Z",
   "plugins": {
     "AEMotionPanel": {
       "name": "Motion Panel",
@@ -38,13 +38,6 @@
         "size": 87056
       },
       "versions": [
-        {
-          "version": "0.1.0",
-          "file": "com.sfxlibrary.panel-0.1.0.zip",
-          "url": "https://raw.githubusercontent.com/dukost42-byte/slate-releases/main/plugins/com.sfxlibrary.panel-0.1.0.zip",
-          "sha256": "2f299e01dd5c995298a1226ffd4601d47071ef731bbea95daf4700e17dd32173",
-          "size": 88027
-        },
         {
           "version": "0.1.0",
           "file": "com.sfxlibrary.panel-0.2.0.zip",
