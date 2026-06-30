@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-30T13:12:39.973Z",
+  "generatedAt": "2026-06-30T13:33:54.720Z",
   "plugins": {
+    "AEMotionPanel": {
+      "name": "Motion Panel",
+      "host": "ae",
+      "kind": "cep",
+      "extensionFolder": "AEMotionPanel",
+      "bundleId": "com.motionpanel.base",
+      "latest": {
+        "version": "0.1.0",
+        "file": "AEMotionPanel-0.1.0.zip",
+        "url": "https://raw.githubusercontent.com/dukost42-byte/slate-releases/main/plugins/AEMotionPanel-0.1.0.zip",
+        "sha256": "a0c76ab7a2278c69d1dc772d65b81cc06559471f5739f176e2bc88868d09838c",
+        "size": 173625
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "file": "AEMotionPanel-0.1.0.zip",
+          "url": "https://raw.githubusercontent.com/dukost42-byte/slate-releases/main/plugins/AEMotionPanel-0.1.0.zip",
+          "sha256": "a0c76ab7a2278c69d1dc772d65b81cc06559471f5739f176e2bc88868d09838c",
+          "size": 173625
+        }
+      ]
+    },
     "com.sfxlibrary.panel": {
       "name": "com.sfxlibrary.panel",
       "host": "pr",
