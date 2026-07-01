@@ -1,0 +1,15 @@
+{
+  "name": "slate-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "keys": "node tools/genkeys.mjs"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.0",
+    "better-sqlite3": "^11.3.0",
+    "hono": "^4.6.0"
+  }
+}

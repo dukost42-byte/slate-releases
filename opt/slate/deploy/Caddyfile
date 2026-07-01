@@ -1,0 +1,10 @@
+# Caddy автоматически получает и продлевает HTTPS-сертификат Let's Encrypt.
+# Замени api.ТВОЙ-ДОМЕН.ru на свой домен (A-запись должна указывать на IP сервера).
+#
+#   sudo apt install -y caddy
+#   sudo nano /etc/caddy/Caddyfile      (вставить это)
+#   sudo systemctl restart caddy
+
+api.ТВОЙ-ДОМЕН.ru {
+    reverse_proxy localhost:8787
+}
